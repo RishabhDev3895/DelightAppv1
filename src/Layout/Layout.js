@@ -4,10 +4,7 @@ import HeaderElement from "./HeaderElement";
 function Layout(props) {
   return (
     <Fragment>
-      <HeaderElement
-        toggleHandler={props.toggleHandler}
-        count={props.cartCount}
-      />
+      <HeaderElement toggleHandler={props.onToggle} count={props.cartCount} />
       {props.children}
       <footer />
     </Fragment>

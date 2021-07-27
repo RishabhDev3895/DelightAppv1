@@ -1,14 +1,16 @@
 import Card from "../UI/Card";
 import CartItems from "./CartItems";
+import Modal from "../UI/Modal";
 
 const Cart = (props) => {
   console.log("My Cart");
   return (
-    <Card>
-      <div>
+    <Modal onClose={props.onClose}>
+      <Card>
         {props.cart.map((i) => {
           return (
             <CartItems
+              key={i.id}
               title={i.title}
               price={i.price}
               quantity={1}
@@ -16,8 +18,8 @@ const Cart = (props) => {
             />
           );
         })}
-      </div>
-    </Card>
+      </Card>
+    </Modal>
   );
 };
 
