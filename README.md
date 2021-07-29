@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+#### DELIGHT APP v1.0 ####
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About the APP
+
+This is an APP that is under development using Javascript's Frontend Library React. The APP aims to cater to the needs of the customers looking for delicious food online.
+The APP will provide them a highly responsive and interactive solution to order their favourite dishes and mouth watering delights without much hassle.
 
 ## Available Scripts
 
